@@ -4,7 +4,7 @@ import time as time
 
 
 # Place your classes (objects) and functions (groups if instructions)
-# that you want to use in your script.  
+# that you want to use in your script.
 
 def NPC_response_1(name):
     """
@@ -15,6 +15,7 @@ def NPC_response_1(name):
     time.sleep(2)
     follow_response = "I am NPC one."
     print(follow_response)
+
 
 class OctaneCar():
     """
@@ -28,26 +29,21 @@ class OctaneCar():
         self.pos_z = 0
         self.boost = 100
 
-
     def forward(self):
         self.pos_x = self.pos_x + 1
         print("Car has moved forward one space")
-
 
     def turnright(self):
         self.pos_y = self.pos_y + 1
         print("Car has moved right one space")
 
-
     def turnleft(self):
         self.pos_y = self.pos_y - 1
         print("Car has moved left one space")
 
-
     def reverse(self):
         self.pos_x = self.pos_x - 1
         print("Car has moved backwards one space")
-
 
     def jump(self):
         self.pos_z = 1
@@ -55,7 +51,6 @@ class OctaneCar():
         time.sleep(1)
         self.pos_z = 0
         print("The car is back on te ground")
-
 
     def turbo(self):
         if self.boost > 0:
@@ -79,10 +74,10 @@ class OctaneCar():
         print("The car has ", self.boost, r"% left.")
 
 
-# This is the script. This area allows you to connect your code instructions.  
+# This is the script. This area allows you to connect your code instructions.
 
 if __name__ == "__main__":
-    
+
     '''
     # Lessons 2:
     # Create a function
