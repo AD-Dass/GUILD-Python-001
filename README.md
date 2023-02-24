@@ -17,9 +17,9 @@ In addition there is a Python demo file which contains two examples of functions
 
 Download Python 3.10 for your operating system https://www.python.org/downloads/release/python-3107/
 
-open the download and choose the 'Install Now' option on the installation wizard.
+Open the download and choose the 'Install Now' option on the installation wizard.
 
-Check that pip works. Open up a windows terminal (Windows key and search Command prompt / use the search function top-right and search terminal).
+Check that pip works. Open up a windows terminal (For Windows: Windows key and search Command prompt / MAC-OS: Use the search function top-right and search terminal).
 
 Type in the command "pip install pandas" (Installs a Python library for excel as a test.)
 
