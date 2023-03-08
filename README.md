@@ -33,6 +33,14 @@ Open Vscode and on the left-bar, open the 5th icon down (Quadrant of boxes with 
 
 Search for Jupyter and install the Jupyter extension that appears.
 
+## **How to use this document**
+
+From this page download the zip file within the green code button.
+
+Unzip the content of this folder in your desired directory and open the tutorial file (has the extension .ipynb) in vscode.
+
+The tutorial is in a Jupyter notebook (an interactive way to write code in Python) containing both instruction and codespaces to develop solutions.  
+
 
 #### **Notes**
 
